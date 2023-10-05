@@ -143,8 +143,9 @@ int main() {
     }//end for
 
     for ( int i = 0 ; i < 3 ; i++ ) {
+        printf( "Student Details:" ) ;
         printf( "\nStudent %d\n", i+1 ) ;
-        printf( "Name & LastName : %s %s\n", person[i].Name, person[i].LastName ) ;
+        printf( "Name : %s %s\n", person[i].Name, person[i].LastName ) ;
         printf( "ID : %d\n", person[i].ID ) ;
         printf( "Scores : %d %d %d %d %d\n", person[i].ScoreSub1, person[i].ScoreSub2, person[i].ScoreSub3, person[i].ScoreSub4, person[i].ScoreSub5 ) ;
         printf( "Grades :" ) ;
